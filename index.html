@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+</head>
+
+<body>
+    <h1 class="title">Tech Chuckle-trek</h1>
+    <div class="container">
+        <div>
+            <label for="cityInput">Enter City:</label>
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search">search</button>
+        </div>
+        <p><strong>City:</strong> <span id="city-name"></span></p>
+        <div class="image">
+            <img src="./img/House-removebg-preview.png" alt="house-image">
+        </div>
+        <div class="wrapper">
+            <div class="weather-rect">
+                <div class="mini-rec">
+                    <span id="time1"></span>
+                    <p><span id="temperature1"></span> °C</p>
+                    <p><strong>Day:</strong> <span id="day1"></span></p>
+                </div>
+                <div class="mini-rec">
+                    <span id="time2"></span>
+                    <p> <span id="temperature2"></span> °C</p>
+                    <p><strong>Day:</strong> <span id="day2"></span></p>
+                </div>
+                <div class="mini-rec">
+                    <span id="time3"></span>
+                    <p> <span id="temperature3"></span> °C</p>
+                    <p><strong>Day:</strong> <span id="day3"></span></p>
+                </div>
+                <div class="mini-rec">
+                    <span id="time4"></span>
+                    <p> <span id="temperature4"></span> °C</p>
+                    <p><strong>Day:</strong> <span id="day4"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- js -->
+<script src="./app.js"></script>
+
+</html>
