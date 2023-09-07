@@ -25,6 +25,20 @@ img {
     color: #ffffff;
 }
 
+.input {
+    display: flex;
+    gap: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+}
+
+input[type="text"]:focus {
+    outline: 4px solid #2719eb;
+}
+
 @media (max-width:780px) {
     .container {
         display: flex;
@@ -33,8 +47,7 @@ img {
     }
 
     .wrapper {
-        position: absolute;
-        bottom: 263px;
+        margin-top: -12rem;
     }
 
     .weather-rect {
